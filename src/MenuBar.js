@@ -13,13 +13,13 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import logo_only from './logo_only_inverted.png'
-import { Avatar, Menu, MenuItem, Slide, Tab, Tabs, Tooltip, styled, useScrollTrigger } from '@mui/material';
-import PhoneIcon from '@mui/icons-material/Phone';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import PersonPinIcon from '@mui/icons-material/PersonPin';
-import PhoneMissedIcon from '@mui/icons-material/PhoneMissed';
+import { Avatar, Menu, MenuItem, Slide, Tab, Tabs, Tooltip, styled, useMediaQuery, useScrollTrigger } from '@mui/material';
+
+import HomeIcon from '@mui/icons-material/Home';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import SpaIcon from '@mui/icons-material/Spa';
+import MapIcon from '@mui/icons-material/Map';
 const drawerWidth = 240;
 const navItems = ['Home','Shop','Environment', 'Map'];
 const settings = [ 'Account', 'Logout'];
@@ -77,7 +77,6 @@ function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
@@ -107,10 +106,10 @@ function DrawerAppBar(props) {
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
-  const [value, setValue] = React.useState(0);
-    const handleChange = (event, newValue) => {
-      setValue(newValue);
-    };
+//   const [value, setValue] = React.useState(0);
+//     const handleChange = (event, newValue) => {
+//       setValue(newValue);
+//     };
   return (
     
     <Box sx={{ display: 'flex' }}>
@@ -172,16 +171,33 @@ function DrawerAppBar(props) {
             </Menu>
           </Box>
         </Toolbar>
-        <StyledTabs centered
-                value={value}
-                onChange={handleChange}
+        <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+            <StyledTabs centered
+                value={props.tabVal}
+                onChange={props.tabChange}
                 aria-label="icon position tabs example"
+                role="navigation"
             >
-                <StyledTab icon={<PhoneIcon />} iconPosition="start" label="Information" />
-                <StyledTab icon={<PhoneMissedIcon />} iconPosition="start" label="Shop" />
-                <StyledTab icon={<FavoriteIcon />} iconPosition="start" label="Environment" />
-                <StyledTab icon={<PersonPinIcon />} iconPosition="start" label="Map" />
+                <StyledTab icon={<HomeIcon />} iconPosition="start" label="Home" {...props.a11yProps(0)}/>
+                <StyledTab icon={<ShoppingBagIcon />} iconPosition="start" label="Shop" {...props.a11yProps(1)}/>
+                <StyledTab icon={<SpaIcon />} iconPosition="start" label="Environment"{...props.a11yProps(2)}/>
+                <StyledTab icon={<MapIcon />} iconPosition="start" label="Map"{...props.a11yProps(3)}/>
             </StyledTabs>
+        </Box>
+        <Box sx={{ display: { xs: 'block', sm: 'none' } }}>
+            <StyledTabs centered
+                value={props.tabVal}
+                onChange={props.tabChange}
+                aria-label="icon position tabs example"
+                role="navigation"
+                fullwidth
+            >
+                <StyledTab icon={<HomeIcon />} iconPosition="start" aria-label="Home" {...props.a11yProps(0)}/>
+                <StyledTab icon={<ShoppingBagIcon />} iconPosition="start" aria-label="Shop" {...props.a11yProps(1)}/>
+                <StyledTab icon={<SpaIcon />} iconPosition="start" aria-label="Environment"{...props.a11yProps(2)}/>
+                <StyledTab icon={<MapIcon />} iconPosition="start" aria-label="Map"{...props.a11yProps(3)}/>
+            </StyledTabs>
+        </Box>
       </AppBar>
       </HideOnScroll>
       <Toolbar/>

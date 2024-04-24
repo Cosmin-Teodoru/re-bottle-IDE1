@@ -83,6 +83,7 @@ function HomePage() {
           </Typography>
         </Toolbar>
       </AppBar> */}
+      <Box height={75}></Box>
       <Box className={classes.hero}>
         <img className={classes.hero_picture} src={logo} height={450} alt="Sip Smarter"/>
       </Box>

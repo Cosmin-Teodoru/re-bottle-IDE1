@@ -17,7 +17,8 @@ export default function Home(){
     
     <div >
         <Box height={75}></Box>
-        <EnvironmentPage/>
+      
+    
         {/* <div>aa</div>
         <AppBar position="sticky">
             <Tabs centered

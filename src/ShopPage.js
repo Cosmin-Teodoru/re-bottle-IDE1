@@ -15,7 +15,7 @@ import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import Pagination from '@mui/material/Pagination';
 import { makeStyles } from '@mui/styles';
 import logo from './logo_no_bkg.png'
-
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "#fff"
@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-function HomePage() {
+function ShopPage() {
   const classes = useStyles();
 
   return (
@@ -83,12 +83,14 @@ function HomePage() {
           </Typography>
         </Toolbar>
       </AppBar> */}
+       <Box height={75}></Box>
       <Box className={classes.hero}>
         <img className={classes.hero_picture} src={logo} height={450} alt="Sip Smarter"/>
       </Box>
       <Container maxWidth="lg" className={classes.blogsContainer}>
+        
         <Typography variant="h4" className={classes.blogTitle}>
-          News
+          RE:Fillable Bottle Shop 
         </Typography>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={4}>
@@ -100,137 +102,113 @@ function HomePage() {
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                  <Typography gutterBottom variant="h4" component="h2">
+                    Refillable bottle 1
                   </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Capacity: 0.5l
+                  </Typography>
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Material: Aluminium
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
-                <Box className={classes.author}>
-                  <Avatar src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-                  <Box ml={2}>
-                    <Typography variant="subtitle2" component="p">
-                      Guy Clemons
-                    </Typography>
-                    <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
-                    </Typography>
-                  </Box>
-                </Box>
+                <Typography variant='h4' component="h2">
+                    100,-
+                </Typography>
                 <Box>
-                  <BookmarkBorderIcon />
+                  <AddShoppingCartIcon color='info' fontSize='large'/>
                 </Box>
               </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card className={classes.card}>
+          <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    React Router
+                  <Typography gutterBottom variant="h4" component="h2">
+                    Refillable bottle 1
                   </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Capacity: 0.5l
+                  </Typography>
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Material: Aluminium
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
-                <Box className={classes.author}>
-                  <Avatar src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80" />
-                  <Box ml={2}>
-                    <Typography variant="subtitle2" component="p">
-                      Guy Clemons
-                    </Typography>
-                    <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
-                    </Typography>
-                  </Box>
-                </Box>
+                <Typography variant='h4' component="h2">
+                    100,-
+                </Typography>
                 <Box>
-                  <BookmarkBorderIcon />
+                  <AddShoppingCartIcon color='info' fontSize='large'/>
                 </Box>
               </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card className={classes.card}>
+          <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                  <Typography gutterBottom variant="h4" component="h2">
+                    Refillable bottle 1
                   </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Capacity: 0.5l
+                  </Typography>
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Material: Aluminium
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
-                <Box className={classes.author}>
-                  <Avatar src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
-                  <Box ml={2}>
-                    <Typography variant="subtitle2" component="p">
-                      Guy Clemons
-                    </Typography>
-                    <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
-                    </Typography>
-                  </Box>
-                </Box>
+                <Typography variant='h4' component="h2">
+                    100,-
+                </Typography>
                 <Box>
-                  <BookmarkBorderIcon />
+                  <AddShoppingCartIcon color='info' fontSize='large'/>
                 </Box>
               </CardActions>
             </Card>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <Card className={classes.card}>
+          <Card className={classes.card}>
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   title="Contemplative Reptile"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                  <Typography gutterBottom variant="h4" component="h2">
+                    Refillable bottle 1
                   </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Capacity: 0.5l
+                  </Typography>
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Material: Aluminium
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.cardActions}>
-                <Box className={classes.author}>
-                  <Avatar src="https://images.unsplash.com/photo-1584999734482-0361aecad844?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80" />
-                  <Box ml={2}>
-                    <Typography variant="subtitle2" component="p">
-                      Guy Clemons
-                    </Typography>
-                    <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
-                    </Typography>
-                  </Box>
-                </Box>
+                <Typography variant='h4' component="h2">
+                    100,-
+                </Typography>
                 <Box>
-                  <BookmarkBorderIcon />
+                  <AddShoppingCartIcon color='info' fontSize='large'/>
                 </Box>
               </CardActions>
             </Card>
@@ -244,4 +222,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default ShopPage;
