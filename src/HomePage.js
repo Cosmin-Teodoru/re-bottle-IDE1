@@ -15,13 +15,18 @@ import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import Pagination from '@mui/material/Pagination';
 import { makeStyles } from '@mui/styles';
 import logo from './logo_no_bkg.png'
+import hero from './hero.png'
+import article1 from './article_1.jpg'
+import article2 from './article_2.jpg'
+import shop_hero from './shop_hero.png'
+import article4 from './article4.jpg'
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "#fff"
   },
   hero: {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${hero})`,
     height: "500px",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -97,16 +102,15 @@ function HomePage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image={article4}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                  RE:Bottle Paves the Way for a Sustainable Future
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  As the refillable bottle initiative expands, it heralds a promising future for Denmark's sustainability efforts, forging a path towards reduced plastic consumption and environmental preservation.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -118,7 +122,7 @@ function HomePage() {
                       Guy Clemons
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
+                    April 24, 2024
                     </Typography>
                   </Box>
                 </Box>
@@ -133,16 +137,15 @@ function HomePage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image={shop_hero}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    React Router
+                    RE:Fillable Online Bottle Shop OPEN NOW!
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  "Explore Our New Online Store: Refillable Bottles Now Available for Easy Sustainable Living! Customize your own bottle and RE:Fill every time you need a drink!
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -154,7 +157,7 @@ function HomePage() {
                       Guy Clemons
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
+                      April 14, 2024
                     </Typography>
                   </Box>
                 </Box>
@@ -169,16 +172,15 @@ function HomePage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image={article2}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                    First Customers Flock to New Refillable Bottle Station
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  Description: As the refillable bottle station debuts on campus, eager students and staff eagerly embrace the initiative, marking a pivotal moment in VIA UC Horsens' commitment to environmental stewardship.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -190,7 +192,7 @@ function HomePage() {
                       Guy Clemons
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
+                    April 10, 2024
                     </Typography>
                   </Box>
                 </Box>
@@ -205,16 +207,15 @@ function HomePage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image={article1}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    React useContext
+                    Our first refillable station is now open for customers!
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                    across all continents except Antarctica
+                  "Attention VIA UC Horsens campus community, we're excited to announce the grand opening of our new refillable bottle station, promoting sustainability and reducing plastic waste!
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -226,7 +227,7 @@ function HomePage() {
                       Guy Clemons
                     </Typography>
                     <Typography variant="subtitle2" color="textSecondary" component="p">
-                      May 14, 2020
+                    April 9, 2024
                     </Typography>
                   </Box>
                 </Box>

@@ -1,27 +1,16 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
-import CardActions from '@mui/material/CardActions';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
-import Avatar from '@mui/material/Avatar';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import Pagination from '@mui/material/Pagination';
 import { makeStyles } from '@mui/styles';
-import logo from './logo_no_bkg.png'
+import environment_hero from './environment_hero.png'
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "#fff"
   },
   hero: {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(${environment_hero})`,
     height: "500px",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

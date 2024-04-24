@@ -1,6 +1,4 @@
 import React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -10,18 +8,21 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
-import Avatar from '@mui/material/Avatar';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import Pagination from '@mui/material/Pagination';
 import { makeStyles } from '@mui/styles';
 import logo from './logo_no_bkg.png'
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import shop_hero from './shop_hero.png'
+import bottle_1 from './shop_bottle_1.png'
+import bottle_2 from './shop_bottle_2.png'
+import bottle_3 from './shop_bottle_3.png'
+import bottle_4 from './shop_bottle_4.png'
 const useStyles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "#fff"
   },
   hero: {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(${shop_hero})`,
     height: "500px",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -98,12 +99,42 @@ function ShopPage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                  title="Contemplative Reptile"
+                  image={bottle_1}
+                  title="Botlle"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h4" component="h2">
-                    Refillable bottle 1
+                    Refillable bottle - Custom text
+                  </Typography>
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Capacity: 0.5l
+                  </Typography>
+                  <Typography variant="body1" color="textPrimary" component="p">
+                    Material: Aluminium
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions className={classes.cardActions}>
+                <Typography variant='h4' component="h2">
+                    130,-
+                </Typography>
+                <Box>
+                  <AddShoppingCartIcon color='info' fontSize='large'/>
+                </Box>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+          <Card className={classes.card}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={bottle_2}                  
+                  title="Bottle"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h4" component="h2">
+                    Refillable bottle - Rose design
                   </Typography>
                   <Typography variant="body1" color="textPrimary" component="p">
                     Capacity: 0.5l
@@ -128,15 +159,15 @@ function ShopPage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image={bottle_3}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h4" component="h2">
-                    Refillable bottle 1
+                    Refillable bottle - Cartoon design
                   </Typography>
                   <Typography variant="body1" color="textPrimary" component="p">
-                    Capacity: 0.5l
+                    Capacity: 0.25l
                   </Typography>
                   <Typography variant="body1" color="textPrimary" component="p">
                     Material: Aluminium
@@ -145,7 +176,7 @@ function ShopPage() {
               </CardActionArea>
               <CardActions className={classes.cardActions}>
                 <Typography variant='h4' component="h2">
-                    100,-
+                    90,-
                 </Typography>
                 <Box>
                   <AddShoppingCartIcon color='info' fontSize='large'/>
@@ -158,12 +189,12 @@ function ShopPage() {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  image={bottle_4}                  
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h4" component="h2">
-                    Refillable bottle 1
+                    Refillable bottle - Custom design
                   </Typography>
                   <Typography variant="body1" color="textPrimary" component="p">
                     Capacity: 0.5l
@@ -175,37 +206,7 @@ function ShopPage() {
               </CardActionArea>
               <CardActions className={classes.cardActions}>
                 <Typography variant='h4' component="h2">
-                    100,-
-                </Typography>
-                <Box>
-                  <AddShoppingCartIcon color='info' fontSize='large'/>
-                </Box>
-              </CardActions>
-            </Card>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-          <Card className={classes.card}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h4" component="h2">
-                    Refillable bottle 1
-                  </Typography>
-                  <Typography variant="body1" color="textPrimary" component="p">
-                    Capacity: 0.5l
-                  </Typography>
-                  <Typography variant="body1" color="textPrimary" component="p">
-                    Material: Aluminium
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions className={classes.cardActions}>
-                <Typography variant='h4' component="h2">
-                    100,-
+                    150,-
                 </Typography>
                 <Box>
                   <AddShoppingCartIcon color='info' fontSize='large'/>
