@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Demo website for IDE1 course
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
