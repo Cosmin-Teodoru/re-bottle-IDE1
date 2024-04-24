@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.40d83eb7.js",
+    "static/js/453.99dcf01f.chunk.js": "/static/js/453.99dcf01f.chunk.js",
+    "static/media/logo_no_bkg.png": "/static/media/logo_no_bkg.b7103099083cd42d4f52.png",
+    "static/media/logo_only_inverted.png": "/static/media/logo_only_inverted.121fde7693cb4c9c241f.png",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.40d83eb7.js.map": "/static/js/main.40d83eb7.js.map",
+    "453.99dcf01f.chunk.js.map": "/static/js/453.99dcf01f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.40d83eb7.js"
+  ]
+}
