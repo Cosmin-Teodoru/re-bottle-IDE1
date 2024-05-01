@@ -1,17 +1,28 @@
 {
   "files": {
     "main.css": "/re-bottle-IDE1/static/css/main.f855e6bc.css",
-    "main.js": "/re-bottle-IDE1/static/js/main.ab030f78.js",
+    "main.js": "/re-bottle-IDE1/static/js/main.b7501f52.js",
     "static/js/453.99dcf01f.chunk.js": "/re-bottle-IDE1/static/js/453.99dcf01f.chunk.js",
+    "static/media/environment_hero.png": "/re-bottle-IDE1/static/media/environment_hero.1e61afa0ab634e87ac8c.png",
+    "static/media/shop_bottle_1.png": "/re-bottle-IDE1/static/media/shop_bottle_1.fb25130d1a65d053dd3c.png",
+    "static/media/shop_bottle_3.png": "/re-bottle-IDE1/static/media/shop_bottle_3.592a3f6722060d0f5ca5.png",
+    "static/media/shop_bottle_2.png": "/re-bottle-IDE1/static/media/shop_bottle_2.07f8f2ba1b0c90cbb38a.png",
+    "static/media/map2.png": "/re-bottle-IDE1/static/media/map2.481b175ec4466508063a.png",
+    "static/media/hero.png": "/re-bottle-IDE1/static/media/hero.82cd98d7494ff3956e84.png",
+    "static/media/article_1.jpg": "/re-bottle-IDE1/static/media/article_1.dff3adf29de1bfd6403b.jpg",
+    "static/media/shop_hero.png": "/re-bottle-IDE1/static/media/shop_hero.f0ff616579f4eb3b539d.png",
+    "static/media/article_2.jpg": "/re-bottle-IDE1/static/media/article_2.c2a2bbabe862f11bc7c4.jpg",
     "static/media/logo_no_bkg.png": "/re-bottle-IDE1/static/media/logo_no_bkg.b7103099083cd42d4f52.png",
+    "static/media/shop_bottle_4.png": "/re-bottle-IDE1/static/media/shop_bottle_4.25c36ba6d67dcaac0d31.png",
+    "static/media/article4.jpg": "/re-bottle-IDE1/static/media/article4.9402d9c11e6e645d9287.jpg",
     "static/media/logo_only_inverted.png": "/re-bottle-IDE1/static/media/logo_only_inverted.121fde7693cb4c9c241f.png",
     "index.html": "/re-bottle-IDE1/index.html",
     "main.f855e6bc.css.map": "/re-bottle-IDE1/static/css/main.f855e6bc.css.map",
-    "main.ab030f78.js.map": "/re-bottle-IDE1/static/js/main.ab030f78.js.map",
+    "main.b7501f52.js.map": "/re-bottle-IDE1/static/js/main.b7501f52.js.map",
     "453.99dcf01f.chunk.js.map": "/re-bottle-IDE1/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.ab030f78.js"
+    "static/js/main.b7501f52.js"
   ]
 }
