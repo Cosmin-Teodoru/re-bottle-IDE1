@@ -10,6 +10,8 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { useTheme } from '@mui/styles';
 import { Box, Typography } from '@mui/material';
+import StationsMap from './StationsMap';
+import BlackMuiFooter from './BlackFooter';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -65,24 +67,24 @@ function App() {
     
     <DrawerAppBar tabVal={value} tabChange={handleChange} a11yProps={a11yProps}/>
     <SwipeableViews
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-        index={value}
-        onChangeIndex={handleChangeIndex}
-      >
-        <TabPanel value={value} index={0} dir={theme.direction}>
-          <HomePage/>
-        </TabPanel>
-        <TabPanel value={value} index={1} dir={theme.direction}>
-          <ShopPage/>
-        </TabPanel>
-        <TabPanel value={value} index={2} dir={theme.direction}>
-          <EnvironmentPage/>
-        </TabPanel>
-        <TabPanel value={value} index={3} dir={theme.direction}>
-          <Home/>
-        </TabPanel>
-      </SwipeableViews>
-    
+      axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+      index={value}
+      onChangeIndex={handleChangeIndex}
+    >
+      <TabPanel value={value} index={0} dir={theme.direction}>
+        <HomePage/>
+      </TabPanel>
+      <TabPanel value={value} index={1} dir={theme.direction}>
+        <ShopPage/>
+      </TabPanel>
+      <TabPanel value={value} index={2} dir={theme.direction}>
+        <EnvironmentPage/>
+      </TabPanel>
+      <TabPanel value={value} index={3} dir={theme.direction}>
+        <StationsMap/>
+      </TabPanel>
+    </SwipeableViews>
+    <BlackMuiFooter/>
     {/* <Router>
       
       <Routes>

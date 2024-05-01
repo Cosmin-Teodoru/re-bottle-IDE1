@@ -78,20 +78,20 @@ function EnvironmentPage() {
           How do we help protect the environment?
         </Typography>
         <Typography className={classes.blogBody} variant="h6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et feugiat urna, tincidunt venenatis ipsum. Nunc et enim in ipsum commodo consectetur. Duis convallis lobortis venenatis. In luctus tempus lorem id vestibulum. Suspendisse sagittis orci in eros tempus, id lacinia felis maximus. Duis facilisis quam sed ligula scelerisque, et dapibus velit condimentum. Aenean lacinia aliquam tortor, ut venenatis felis porta ut. Donec iaculis vulputate aliquam. Donec tempus, lorem ac sollicitudin mollis, ligula dolor sagittis dolor, faucibus aliquet tellus ex et urna. Nullam suscipit, justo vel ornare semper, erat metus porttitor ligula, id vulputate ligula risus nec lectus. In ut nibh lacinia, cursus nisl et, porttitor nisi. Nunc ut convallis justo. In sit amet diam pharetra, dapibus justo eu, dapibus dui.
+          At ReBottle, we're on a mission to revolutionize the way we consume beverages while championing environmental sustainability. With a commitment to reducing single-use plastic waste, we've introduced refill stations across Denmark, strategically located in supermarkets for convenient access. Our refill stations offer a simple yet impactful solution: refillable bottles for water and sodas, minimizing the need for disposable containers.
         </Typography>
         <Typography className={classes.blogBody}variant="h6">
-Pellentesque hendrerit rutrum interdum. Aenean eleifend risus non orci mattis, sed luctus arcu tincidunt. Morbi consequat consequat sapien, a sodales lacus auctor non. Sed tempus nisi nec diam cursus iaculis. Fusce non ipsum ex. In id arcu at urna ornare dictum at et dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-</Typography>
+          We recognize the pressing global challenge posed by plastic pollution. Each year, millions of tons of plastic end up in landfills and oceans, devastating ecosystems and harming wildlife. By offering refillable options, ReBottle aims to mitigate this environmental crisis by significantly reducing the demand for single-use plastic bottles. Every refill made at our stations translates into one less plastic bottle in circulation, contributing to a cleaner, greener planet.
+        </Typography>
         <Typography className={classes.blogBody}variant="h6">
-Ut mollis posuere facilisis. Morbi venenatis magna at nisl efficitur, nec rhoncus mauris ultrices. Duis imperdiet porttitor ipsum sed euismod. Cras viverra tempor dui. Duis nec rutrum libero, nec varius est. Aliquam laoreet congue luctus. Aliquam scelerisque enim purus, non porttitor mi ornare quis. Nulla varius felis vel libero euismod finibus.
-</Typography>
+          But our commitment doesn't stop there. In addition to providing refillable bottles and convenient refill stations, we're dedicated to promoting awareness and education about the importance of reducing plastic waste. Through community outreach programs and partnerships with environmental organizations, we strive to inspire and empower individuals to make sustainable choices in their everyday lives.
+        </Typography>
         <Typography className={classes.blogBody}variant="h6">
-Nunc nec scelerisque felis, eu luctus augue. Sed et lacus sit amet est elementum consectetur. Cras non nisi a velit laoreet mattis vitae vitae lacus. Donec pellentesque turpis sit amet quam egestas dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis nec nibh ut libero accumsan auctor. Proin lobortis sodales orci et aliquet. Vivamus in tellus hendrerit, imperdiet leo semper, laoreet neque. Ut ac fermentum eros, a fermentum risus.
-</Typography>
+          Moreover, ReBottle isn't just about reducing waste; it's about fostering a culture of conscious consumption. By encouraging customers to reuse their bottles and opt for refills instead of disposables, we're helping to cultivate a mindset of environmental stewardship and responsibility. Together, we can make a significant difference in preserving our planet for future generations.
+        </Typography>
         <Typography className={classes.blogBody}variant="h6">
-Suspendisse gravida urna lectus, vel dignissim felis posuere rhoncus. Donec a quam a odio elementum mollis. In faucibus sapien vitae finibus aliquam. Vestibulum ut felis nec odio dictum mollis. Nunc sem arcu, rhoncus eget felis sed, dignissim dictum lacus. Aliquam sit amet ex scelerisque, condimentum felis nec, tempor erat. Donec nec elit ac libero viverra vestibulum vel sit amet lectus. Curabitur eu dolor quis massa convallis tincidunt.
-</Typography>
+          Join us in our mission to protect the environment, one refill at a time. Together, we can create a more sustainable future for our planet and all its inhabitants.
+        </Typography>
        
       </Container>
     </div>
