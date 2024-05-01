@@ -90,10 +90,10 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
         <Typography variant="h6" sx={{ my: 2 }}>
-            MUI
+            Re:Bottle
         </Typography>
         <Divider />
-        <List>
+        {/* <List>
             {navItems.map((item) => (
             <ListItem key={item} disablePadding>
                 <ListItemButton sx={{ textAlign: 'center' }}>
@@ -101,7 +101,7 @@ function DrawerAppBar(props) {
                 </ListItemButton>
             </ListItem>
             ))}
-        </List>
+        </List> */}
     </Box>
   );
 
